@@ -1,4 +1,4 @@
-package no961;
+package no0961;
 
 import java.util.HashSet;
 /**
