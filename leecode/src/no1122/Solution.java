@@ -1,10 +1,7 @@
 package no1122;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
 
 /**
  * 给你两个数组，arr1 和 arr2，
