@@ -14,6 +14,7 @@ public class Solution {
     	//结束条件
     	if(count==len+1) {
     		res.add(transfomer(result,len));
+    		return;
     	}
     	
     	//推测下一行可以选择的位置
