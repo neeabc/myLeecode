@@ -40,6 +40,7 @@ public class Solution {
     	//结束条件
     	if(count==res.length) {
     		num++;
+    		return;
     	}
     	
     	//下一行可以放置皇后的位置,0可放,1不可放
