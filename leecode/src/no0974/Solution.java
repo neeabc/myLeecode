@@ -35,7 +35,7 @@ public class Solution {
     	
     	int[] counts = new int[K];
     	for(int i=0;i<sums.length;i++) {
-    		counts[sums[i]%K]++;
+    		counts[(sums[i]%K+K)%K]++;
     	}
     	
     	int count = 0;
