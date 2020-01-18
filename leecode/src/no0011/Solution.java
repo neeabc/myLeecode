@@ -20,7 +20,7 @@ package no0011;
  *
  */
 public class Solution {
-    public int maxArea(int[] height) {
+    public int maxArea01(int[] height) {
     	
     	int[] base = new int[height.length];
     	
@@ -40,5 +40,26 @@ public class Solution {
         }
         
         return max;
+    }
+    
+    public int maxArea(int[] height) {
+    	int s = 0;
+    	int e = height.length-1;
+    	
+    	int max = 0;
+    	
+    	while(s<e) {
+    		
+    		int temp = Math.min(height[s], height[e])*(e-s);
+    		max = Math.max(max, temp);
+    		
+    		if(height[s]>height[e]) {
+    			e--;
+    		}else {
+    			s++;
+    		}
+    	}
+    	
+    	return max;
     }
 }
