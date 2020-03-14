@@ -1,8 +1,10 @@
 package no0321;
 
+import org.junit.Test;
+
 import java.util.Arrays;
 
-import org.junit.jupiter.api.Test;
+
 
 public class Test0321 {
 	@Test

@@ -1,9 +1,10 @@
 package no0120;
 
+
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import org.junit.jupiter.api.Test;
 
 public class Test0120 {
 	@Test

@@ -1,6 +1,7 @@
 package no1243;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 public class Test1243 {
 	@Test

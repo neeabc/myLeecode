@@ -1,8 +1,9 @@
 package no0047;
 
+import org.junit.Test;
+
 import java.util.List;
 
-import org.junit.jupiter.api.Test;
 
 public class Test0047 {
 	@Test
