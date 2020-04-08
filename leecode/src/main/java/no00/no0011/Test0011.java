@@ -1,5 +1,6 @@
 package no00.no0011;
 
+
 import org.junit.Test;
 
 public class Test0011 {
